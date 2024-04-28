@@ -11,8 +11,9 @@ HC-05 모듈을 사용하여 아두이노에 무선으로 펌웨어를 업로드
 이 경우 기본 통신속도와 명령어 셋을 직접 수정하여 사용해야합니다.  
 ```c
 // 예
+HC_05 uno_bt(D_NAME);
 void setup() {
-   initDevice(38400);
+   uno_bt.initDevice(38400);
 }
 ```
 
