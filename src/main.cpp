@@ -61,7 +61,7 @@ void setup() {
     Serial.println("4. 아두이노의 D4 에 연결된 Key 핀을 제거합니다.");
     Serial.println("5. PC 에서 블루투스 장치를 스캔하여 Arduino_Uno_BT 장치를 찾아 연결하세요.");
     Serial.println("6. 기본으로 설정된 블루투스 비밀번호는 0000 입니다.");
-    Serial.println("7. HC-05 모듈이 PC와 성공적으로 연결되면 컴퓨테어 2개의 COM Port 가 생성됩니다.");
+    Serial.println("7. HC-05 모듈이 PC와 성공적으로 연결되면 컴퓨터에 2개의 COM Port 가 생성됩니다.");
     Serial.println("8. 둘 중 하나의 COM Port 만 시리얼 통신으로 사용가능합니다.");
     Serial.println("9. 시리얼 통신이 가능한 포트가 펌웨어 업로드가 가능한 포트입니다");
     Serial.println("10. Blink 예제를 업로드하여 정상적으로 업로드되는 포트를 사용합니다.");
